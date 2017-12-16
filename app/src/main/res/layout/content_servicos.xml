@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.thayn.officecars.Servicos"
+    tools:showIn="@layout/activity_servicos">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="201dp"
+        android:layout_height="32dp"
+        android:text="@string/title_activity_servicos"
+        android:textSize="20dp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:text="Serviços de urgência"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="349dp"
+        android:layout_height="29dp"
+        android:text="1servico"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:text="Troca de bateria       R$278,00"
+        tools:ignore="MissingConstraints" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="351dp"
+        android:layout_height="31dp"
+        android:text="2servico"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="160dp"
+        tools:text="Limpeza técnica do motor     R$150,00"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:text="Total: R$428,00"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_servicos"
+        android:textSize="20dp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="255dp"
+        tools:text="Serviços Necessários"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="3servico"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:text="Troca de óleo lubrificante R$169,00"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="4servico"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="347dp"
+        tools:text="Limpeza do ar condicionado R$ 50,00"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="5servico"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:text="Polimento             R$269,00"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="434dp"
+        tools:text="Total: R$488,00"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/confirmar"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:text="confirmar"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="485dp"
+        tools:text="Confirmar"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
